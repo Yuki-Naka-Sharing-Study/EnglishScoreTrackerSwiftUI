@@ -45,6 +45,16 @@ struct SelectConfirmView: View {
                     .font(.headline)
             }
         }
+        HStack {
+            ZStack {
+                Rectangle()
+                    .fill(Color.blue)
+                    .frame(width: 200, height: 200)
+                Text("TOEFL iBT")
+                    .foregroundColor(.white)
+                    .font(.headline)
+            }
+        }
     }
 }
 
