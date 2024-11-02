@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct RecordView: View {
+struct SelectRecordView: View {
     var body: some View {
-        Text("記録画面です。")
+        Text("made feature/SelectRecordView branch.")
     }
 }
 
 #Preview {
-    RecordView()
+    SelectRecordView()
 }
