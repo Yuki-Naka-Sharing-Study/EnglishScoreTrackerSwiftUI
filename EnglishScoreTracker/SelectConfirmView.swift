@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ConfirmView: View {
+struct SelectConfirmView: View {
     var body: some View {
-        Text("記録確認画面です。")
+        Text("made feature/SelectConfirmView branch.")
     }
 }
 
 #Preview {
-    ConfirmView()
+    SelectConfirmView()
 }
