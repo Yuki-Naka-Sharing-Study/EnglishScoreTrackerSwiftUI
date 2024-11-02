@@ -14,7 +14,6 @@ struct SelectConfirmView: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: 200, height: 200)
-                
                 Text("英検一次")
                     .foregroundColor(.white)
                     .font(.headline)
@@ -23,8 +22,17 @@ struct SelectConfirmView: View {
                 Rectangle()
                     .fill(Color.orange)
                     .frame(width: 200, height: 200)
-                
                 Text("英検二次")
+                    .foregroundColor(.white)
+                    .font(.headline)
+            }
+        }
+        HStack {
+            ZStack {
+                Rectangle()
+                    .fill(Color.yellow)
+                    .frame(width: 200, height: 200)
+                Text("TOEIC")
                     .foregroundColor(.white)
                     .font(.headline)
             }
