@@ -16,7 +16,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("英検一次")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -24,7 +24,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("英検二次")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
         HStack {
@@ -34,7 +34,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEIC")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -42,7 +42,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEIC SW")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
         HStack {
@@ -52,7 +52,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEFL iBT")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -60,7 +60,7 @@ struct SelectConfirmView: View {
                     .frame(width: 200, height: 200)
                 Text("IELTS")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
     }
