@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("made develop branch.")
+            Text("made feature/TabView branch.")
         }
         .padding()
     }
