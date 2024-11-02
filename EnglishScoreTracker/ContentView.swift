@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection = 1
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("made feature/TabView branch.")
+        TabView(selection:$selection) {
+            ConfirmView()
+                .tabItem {
+                    Label("記録確認", systemImage: "magnifyingglass")
+                }
+                .tag(1)
+            
+            RecordView()
+                .tabItem {
+                    Label("記録する", systemImage: "pencil")
+                }
+                .tag(2)
+            
+            SettingView()
+                .tabItem {
+                    Label("設定", systemImage: "gearshape")
+                }
+                .tag(3)
         }
-        .padding()
     }
 }
 
