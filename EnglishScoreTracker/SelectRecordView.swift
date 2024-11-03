@@ -29,6 +29,16 @@ struct SelectRecordView: View {
                     .font(.headline)
             }
         }
+        HStack {
+            ZStack {
+                Rectangle()
+                    .fill(Color.yellow)
+                    .frame(width: 200, height: 200)
+                Text("TOEIC")
+                    .foregroundColor(.white)
+                    .font(.headline)
+            }
+        }
     }
 }
 
