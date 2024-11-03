@@ -13,6 +13,7 @@ struct EikenIchijiRecordView: View {
     @State private var readingScore: String = ""
     @State private var listeningScore: String = ""
     @State private var writingScore: String = ""
+    @State private var speakingScore: String = ""
     
     var body: some View {
         VStack{
@@ -61,6 +62,15 @@ struct EikenIchijiRecordView: View {
                     .padding(16)
                 Spacer()
                 TextField("850", text: $writingScore)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                
+            }
+            HStack {
+                Text("Speaking")
+                    .padding(16)
+                Spacer()
+                TextField("850", text: $speakingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
                 
