@@ -17,7 +17,7 @@ struct SelectRecordView: View {
                 
                 Text("英検一次")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -26,7 +26,7 @@ struct SelectRecordView: View {
                 
                 Text("英検二次")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
         HStack {
@@ -36,7 +36,7 @@ struct SelectRecordView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEIC")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -44,7 +44,7 @@ struct SelectRecordView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEIC SW")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
         HStack {
@@ -54,7 +54,7 @@ struct SelectRecordView: View {
                     .frame(width: 200, height: 200)
                 Text("TOEFL iBT")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
             ZStack {
                 Rectangle()
@@ -62,7 +62,7 @@ struct SelectRecordView: View {
                     .frame(width: 200, height: 200)
                 Text("IELTS")
                     .foregroundColor(.white)
-                    .font(.headline)
+                    .font(.title)
             }
         }
     }
