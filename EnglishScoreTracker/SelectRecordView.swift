@@ -56,6 +56,14 @@ struct SelectRecordView: View {
                     .foregroundColor(.white)
                     .font(.headline)
             }
+            ZStack {
+                Rectangle()
+                    .fill(Color.purple)
+                    .frame(width: 200, height: 200)
+                Text("IELTS")
+                    .foregroundColor(.white)
+                    .font(.headline)
+            }
         }
     }
 }
