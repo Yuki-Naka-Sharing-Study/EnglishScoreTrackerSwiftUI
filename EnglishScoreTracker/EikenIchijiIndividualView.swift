@@ -24,6 +24,11 @@ struct EikenIchijiIndividualView: View {
                 Text("スコア")
                 Spacer()
             }
+            HStack {
+                Text("Reading")
+                Spacer()
+                Text("850")
+            }
             Spacer()
             .toolbar(content: toolbarContent)
         }
