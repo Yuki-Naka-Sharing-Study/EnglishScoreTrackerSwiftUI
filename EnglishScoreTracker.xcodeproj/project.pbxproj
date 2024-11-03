@@ -14,6 +14,7 @@
 		D140A46A2CD5C541003D8362 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A4692CD5C541003D8362 /* ConfirmView.swift */; };
 		D140A46C2CD5C5AD003D8362 /* SelectRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A46B2CD5C5AD003D8362 /* SelectRecordView.swift */; };
 		D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A46D2CD5C5FE003D8362 /* SettingView.swift */; };
+		D1EC1E002CD7772300AE6961 /* EikenIchijiRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D140A4692CD5C541003D8362 /* ConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
 		D140A46B2CD5C5AD003D8362 /* SelectRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRecordView.swift; sourceTree = "<group>"; };
 		D140A46D2CD5C5FE003D8362 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiRecordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D140A4692CD5C541003D8362 /* ConfirmView.swift */,
 				D140A46B2CD5C5AD003D8362 /* SelectRecordView.swift */,
 				D140A46D2CD5C5FE003D8362 /* SettingView.swift */,
+				D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */,
 				D140A45F2CD5C36C003D8362 /* Assets.xcassets */,
 				D140A4612CD5C36C003D8362 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EC1E002CD7772300AE6961 /* EikenIchijiRecordView.swift in Sources */,
 				D140A45E2CD5C36B003D8362 /* ContentView.swift in Sources */,
 				D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */,
 				D140A46C2CD5C5AD003D8362 /* SelectRecordView.swift in Sources */,
