@@ -10,9 +10,12 @@ import SwiftUI
 struct EikenIchijiIndividualView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("")
+            HStack {
+                Text("受験日")
+                Spacer()
+                Text("2024年11月3日")
             }
+            Spacer()
             .toolbar(content: toolbarContent)
         }
     }
