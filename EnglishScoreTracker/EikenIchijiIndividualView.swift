@@ -20,6 +20,10 @@ struct EikenIchijiIndividualView: View {
                 Spacer()
                 Text("準一級")
             }
+            HStack {
+                Text("スコア")
+                Spacer()
+            }
             Spacer()
             .toolbar(content: toolbarContent)
         }
