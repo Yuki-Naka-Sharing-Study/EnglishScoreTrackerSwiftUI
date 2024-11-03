@@ -10,6 +10,7 @@ import SwiftUI
 struct EikenIchijiRecordView: View {
     @State private var selectedDate = Date()
     @State private var gradeText: String = ""
+    @State private var readingScore: String = ""
     
     var body: some View {
         VStack{
@@ -34,6 +35,15 @@ struct EikenIchijiRecordView: View {
                 Text("スコアを記入")
                     .padding(16)
                 Spacer()
+            }
+            HStack {
+                Text("Reading")
+                    .padding(16)
+                Spacer()
+                TextField("850", text: $readingScore)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                
             }
             Spacer()
         }
