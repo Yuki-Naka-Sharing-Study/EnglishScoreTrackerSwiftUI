@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EikenIchijiRecordView: View {
     @State private var selectedDate = Date()
-    @State private var inputText: String = ""
+    @State private var gradeText: String = ""
     
     var body: some View {
         HStack {
@@ -24,7 +24,7 @@ struct EikenIchijiRecordView: View {
             Text("受験級を選択")
                 .padding(16)
             Spacer()
-            TextField("一級", text: $inputText)
+            TextField("一級", text: $gradeText)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
