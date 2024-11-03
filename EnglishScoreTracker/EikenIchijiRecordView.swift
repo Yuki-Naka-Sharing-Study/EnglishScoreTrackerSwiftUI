@@ -30,6 +30,11 @@ struct EikenIchijiRecordView: View {
                     .padding()
                 
             }
+            HStack {
+                Text("スコアを記入")
+                    .padding(16)
+                Spacer()
+            }
             Spacer()
         }
         
