@@ -42,7 +42,7 @@ struct EikenIchijiRecordView: View {
             }
             HStack {
                 Text("Reading")
-                    .padding(16)
+                    .padding(.leading, 32)
                 Spacer()
                 TextField("850", text: $readingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -51,7 +51,7 @@ struct EikenIchijiRecordView: View {
             }
             HStack {
                 Text("Listening")
-                    .padding(16)
+                    .padding(.leading, 32)
                 Spacer()
                 TextField("850", text: $listeningScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -60,7 +60,7 @@ struct EikenIchijiRecordView: View {
             }
             HStack {
                 Text("Writing")
-                    .padding(16)
+                    .padding(.leading, 32)
                 Spacer()
                 TextField("850", text: $writingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -69,7 +69,7 @@ struct EikenIchijiRecordView: View {
             }
             HStack {
                 Text("Speaking")
-                    .padding(16)
+                    .padding(.leading, 32)
                 Spacer()
                 TextField("850", text: $speakingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -78,7 +78,7 @@ struct EikenIchijiRecordView: View {
             }
             HStack {
                 Text("Memo")
-                    .padding(16)
+                    .padding(.leading, 32)
                 Spacer()
                 TextEditor(text: $memoText)
                     .padding()
