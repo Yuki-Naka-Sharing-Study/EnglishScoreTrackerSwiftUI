@@ -9,7 +9,15 @@ import SwiftUI
 
 struct SelectRecordView: View {
     var body: some View {
-        Text("made feature/SelectRecordView branch.")
+        ZStack {
+            Rectangle()
+                .fill(Color.red)
+                .frame(width: 200, height: 200)
+            
+            Text("英検一次")
+                .foregroundColor(.white)
+                .font(.headline)
+        }
     }
 }
 
