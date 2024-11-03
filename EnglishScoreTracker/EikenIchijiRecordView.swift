@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EikenIchijiRecordView: View {
     @State private var selectedDate = Date()
+    @State private var inputText: String = ""
     
     var body: some View {
         HStack {
@@ -17,6 +18,15 @@ struct EikenIchijiRecordView: View {
             DatePicker("日付を選択", selection: $selectedDate, displayedComponents: [.date])
                 .datePickerStyle(WheelDatePickerStyle())
                 .frame(maxWidth: 150)
+            
+        }
+        HStack {
+            Text("受験級を選択")
+                .padding(16)
+            Spacer()
+            TextField("一級", text: $inputText)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
             
         }
         Spacer()
