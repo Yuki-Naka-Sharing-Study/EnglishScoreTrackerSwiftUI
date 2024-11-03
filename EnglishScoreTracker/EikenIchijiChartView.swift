@@ -9,7 +9,11 @@ import SwiftUI
 
 struct EikenIchijiChartView: View {
     var body: some View {
-        Text("made feature/EikenIchijiChartView branch.")
+        ContentUnavailableView(
+            "記録無し",
+            systemImage: "pencil",
+            description: Text("まだ何も記録されていません。")
+        )
     }
 }
 
