@@ -9,7 +9,24 @@ import SwiftUI
 
 struct EikenIchijiIndividualView: View {
     var body: some View {
-        Text("made feature/EikenIchijiIndividualView branch.")
+        NavigationStack {
+            VStack {
+                Text("")
+            }
+            .toolbar(content: toolbarContent)
+        }
+    }
+}
+
+@ToolbarContentBuilder
+private func toolbarContent() -> some ToolbarContent {
+    ToolbarItem(placement: .topBarTrailing) {
+        Button(action: {
+            print("ゴミ箱ボタンがタップされました")
+        }) {
+            Image(systemName: "trash")
+                .font(.title)
+        }
     }
 }
 
