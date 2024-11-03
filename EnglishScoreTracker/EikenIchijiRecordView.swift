@@ -14,6 +14,7 @@ struct EikenIchijiRecordView: View {
     @State private var listeningScore: String = ""
     @State private var writingScore: String = ""
     @State private var speakingScore: String = ""
+    @State private var memoText: String = ""
     
     var body: some View {
         VStack{
@@ -72,6 +73,18 @@ struct EikenIchijiRecordView: View {
                 Spacer()
                 TextField("850", text: $speakingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                
+            }
+            HStack {
+                Text("Memo")
+                    .padding(16)
+                Spacer()
+                TextEditor(text: $memoText)
+                    .padding()
+                    .background(Color.gray.opacity(0.1))
+                    .cornerRadius(5) // 角丸の半径を設定
+                    .frame(height: 100)
                     .padding()
                 
             }
