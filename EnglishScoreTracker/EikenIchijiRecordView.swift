@@ -83,11 +83,21 @@ struct EikenIchijiRecordView: View {
                 TextEditor(text: $memoText)
                     .padding()
                     .background(Color.gray.opacity(0.1))
-                    .cornerRadius(5) // 角丸の半径を設定
+                    .cornerRadius(5)
                     .frame(height: 100)
                     .padding()
                 
             }
+            Button(action: {
+                print("Button tapped!")
+            }) {
+                Text("記録する")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            .padding()
             Spacer()
         }
     }
