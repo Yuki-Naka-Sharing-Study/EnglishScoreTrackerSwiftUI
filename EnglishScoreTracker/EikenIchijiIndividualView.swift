@@ -15,6 +15,11 @@ struct EikenIchijiIndividualView: View {
                 Spacer()
                 Text("2024年11月3日")
             }
+            HStack {
+                Text("受験級")
+                Spacer()
+                Text("準一級")
+            }
             Spacer()
             .toolbar(content: toolbarContent)
         }
