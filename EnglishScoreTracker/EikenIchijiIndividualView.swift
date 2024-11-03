@@ -44,6 +44,11 @@ struct EikenIchijiIndividualView: View {
                 Spacer()
                 Text("850")
             }
+            HStack {
+                Text("Memo")
+                Spacer()
+                Text("The topic of Writing was so difficult.")
+            }
             Spacer()
             .toolbar(content: toolbarContent)
         }
