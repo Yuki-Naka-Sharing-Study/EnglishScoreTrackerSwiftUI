@@ -66,7 +66,7 @@ struct EikenIchijiInfo: Identifiable {
             // Listining
             EikenIchijiInfo(schedule: "2023/1/21", score: 616, typeOfSkill: "Listining"),
             EikenIchijiInfo(schedule: "2023/6/4", score: 642, typeOfSkill: "Listining"),
-            EikenIchijiInfo(schedule: "2023/1/21", score: 623, typeOfSkill: "Listining"),
+            EikenIchijiInfo(schedule: "2023/10/8", score: 623, typeOfSkill: "Listining"),
             
             // Writiing
             EikenIchijiInfo(schedule: "2023/1/21", score: 620, typeOfSkill: "Writing"),
