@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct EikenIchijiIndividualView: View {
+    @State private var isShownAlert = false
+    
     var body: some View {
         NavigationStack {
+            HStack {
+                Spacer()
+                Button(action: {
+                    isShownAlert = true
+                }) {
+                    Image(systemName: "trash")
+                        .font(.title)
+                }
+                .alert(isPresented: $isShownAlert) {
+                    Alert(
+                        title: Text("データを削除しますか？"),
+                        primaryButton: .destructive(Text("削除する"), action: {
+                            
+                        }),
+                        secondaryButton: .cancel(Text("キャンセル"))
+                    )
+                }
+                .padding(.trailing, 16)
+            }
             HStack {
                 Text("受験日")
                     .padding(16)
@@ -58,19 +79,6 @@ struct EikenIchijiIndividualView: View {
                 Text("The topic of Writing was so difficult.")
             }
             Spacer()
-            .toolbar(content: toolbarContent)
-        }
-    }
-}
-
-@ToolbarContentBuilder
-private func toolbarContent() -> some ToolbarContent {
-    ToolbarItem(placement: .topBarTrailing) {
-        Button(action: {
-            print("ゴミ箱ボタンがタップされました")
-        }) {
-            Image(systemName: "trash")
-                .font(.title)
         }
     }
 }
