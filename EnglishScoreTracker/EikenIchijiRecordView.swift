@@ -53,6 +53,7 @@ struct EikenIchijiRecordView: View {
                 Spacer()
                 TextField("850", text: $readingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.numberPad)
                     .padding()
                 
             }
@@ -62,6 +63,7 @@ struct EikenIchijiRecordView: View {
                 Spacer()
                 TextField("850", text: $listeningScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.numberPad)
                     .padding()
                 
             }
@@ -71,6 +73,7 @@ struct EikenIchijiRecordView: View {
                 Spacer()
                 TextField("850", text: $writingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .keyboardType(.numberPad)
                     .padding()
                 
             }
