@@ -10,6 +10,7 @@ import SwiftUI
 struct RecordView: View {
     var body: some View {
         Text("記録画面です。")
+        Text("before merge feature/TabView branch into develop branch.")
     }
 }
 

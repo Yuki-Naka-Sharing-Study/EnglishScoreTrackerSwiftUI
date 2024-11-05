@@ -10,6 +10,7 @@ import SwiftUI
 struct ConfirmView: View {
     var body: some View {
         Text("記録確認画面です。")
+        Text("before merge feature/TabView branch into develop branch.")
     }
 }
 
