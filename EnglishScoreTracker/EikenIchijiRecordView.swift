@@ -75,8 +75,11 @@ struct EikenIchijiRecordView: View {
                 
             }
             HStack {
-                Text("Memo")
-                    .padding(.leading, 32)
+                VStack {
+                    Text("Memo")
+                        .padding(.leading, 16)
+                    Spacer()
+                }
                 Spacer()
                 TextEditor(text: $memoText)
                     .padding()
