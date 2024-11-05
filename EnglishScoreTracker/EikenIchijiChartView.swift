@@ -10,6 +10,7 @@ import Charts
 
 struct EikenIchijiChartView: View {
     @State private var data = EikenIchijiInfo.fetchData()
+    @State private var selectedYaer = 2
     
     var body: some View {
         // 以下、記録無しの場合
@@ -20,15 +21,27 @@ struct EikenIchijiChartView: View {
 //        )
         
         // 以下、記録ありの場合
-        Chart(data) {
-            LineMark(
-                x: .value("Schedule", $0.schedule),
-                y: .value("Score", $0.score)
-            )
-            .foregroundStyle(by: .value("TypeOfSkill", $0.typeOfSkill))
+        VStack {
+            Chart(data) {
+                LineMark(
+                    x: .value("Schedule", $0.schedule),
+                    y: .value("Score", $0.score)
+                )
+                .foregroundStyle(by: .value("TypeOfSkill", $0.typeOfSkill))
+            }
+            .padding()
+            .dynamicTypeSize(.xxLarge)
+            
+            Text("受験した年")
+            Picker("受験した年を選択", selection: $selectedYaer) {
+                /// 選択項目の一覧
+                Text("2023").tag(1)
+                Text("2024").tag(2)
+                Text("2025").tag(3)
+            }
+            .pickerStyle(.wheel)
         }
-        .padding()
-        .dynamicTypeSize(.xxLarge)
+        
     }
 }
 
