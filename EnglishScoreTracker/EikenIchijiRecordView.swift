@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EikenIchijiRecordView: View {
     @State private var selectedDate = Date()
-    @State private var gradeText: String = ""
+    @State private var selectedGrade = 4
     @State private var readingScore: String = ""
     @State private var listeningScore: String = ""
     @State private var writingScore: String = ""
@@ -29,9 +29,17 @@ struct EikenIchijiRecordView: View {
                 Text("受験級を選択")
                     .padding(16)
                 Spacer()
-                TextField("一級", text: $gradeText)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
+                Picker("受験級を選択", selection: $selectedGrade) {
+                    /// 選択項目の一覧
+                    Text("5級").tag(1)
+                    Text("4級").tag(2)
+                    Text("3級").tag(3)
+                    Text("準2級").tag(4)
+                    Text("2級").tag(5)
+                    Text("準1級").tag(6)
+                    Text("1級").tag(7)
+                }
+                .pickerStyle(.wheel)
                 
             }
             HStack {
