@@ -59,19 +59,19 @@ struct EikenIchijiInfo: Identifiable {
         [
             // Max Score = 850
             // Reading
-            EikenIchijiInfo(schedule: "2023/6/4", score: 677, typeOfSkill: "Reading"),
-            EikenIchijiInfo(schedule: "2023/10/8", score: 690, typeOfSkill: "Reading"),
-            EikenIchijiInfo(schedule: "2024/1/21", score: 751, typeOfSkill: "Reading"),
+            EikenIchijiInfo(schedule: "2023/1/21", score: 677, typeOfSkill: "Reading"),
+            EikenIchijiInfo(schedule: "2023/6/4", score: 690, typeOfSkill: "Reading"),
+            EikenIchijiInfo(schedule: "2023/10/8", score: 751, typeOfSkill: "Reading"),
             
             // Listining
-            EikenIchijiInfo(schedule: "2023/6/4", score: 616, typeOfSkill: "Listining"),
-            EikenIchijiInfo(schedule: "2023/10/8", score: 642, typeOfSkill: "Listining"),
-            EikenIchijiInfo(schedule: "2024/1/21", score: 623, typeOfSkill: "Listining"),
+            EikenIchijiInfo(schedule: "2023/1/21", score: 616, typeOfSkill: "Listining"),
+            EikenIchijiInfo(schedule: "2023/6/4", score: 642, typeOfSkill: "Listining"),
+            EikenIchijiInfo(schedule: "2023/1/21", score: 623, typeOfSkill: "Listining"),
             
             // Writiing
-            EikenIchijiInfo(schedule: "2023/6/4", score: 620, typeOfSkill: "Writing"),
-            EikenIchijiInfo(schedule: "2023/10/8", score: 669, typeOfSkill: "Writing"),
-            EikenIchijiInfo(schedule: "2024/1/21", score: 713, typeOfSkill: "Writing"),
+            EikenIchijiInfo(schedule: "2023/1/21", score: 620, typeOfSkill: "Writing"),
+            EikenIchijiInfo(schedule: "2023/6/4", score: 669, typeOfSkill: "Writing"),
+            EikenIchijiInfo(schedule: "2023/10/8", score: 713, typeOfSkill: "Writing"),
         ]
     }
 }
