@@ -36,12 +36,14 @@ struct EikenIchijiIndividualView: View {
                     .padding(16)
                 Spacer()
                 Text("2024年11月3日")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("受験級")
                     .padding(16)
                 Spacer()
                 Text("準一級")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("スコア")
@@ -54,6 +56,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("850")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("Listening")
@@ -61,6 +64,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("850")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("Writing")
@@ -68,6 +72,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("850")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("Speaking")
@@ -75,12 +80,14 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("850")
+                    .padding(.trailing, 16)
             }
             HStack {
                 Text("Memo")
                     .padding(16)
                 Spacer()
                 Text("The topic of Writing was so difficult.")
+                    .padding(.trailing, 16)
             }
             Spacer()
         }
