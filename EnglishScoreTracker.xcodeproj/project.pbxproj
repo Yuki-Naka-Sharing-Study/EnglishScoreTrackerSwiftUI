@@ -16,6 +16,7 @@
 		D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A46D2CD5C5FE003D8362 /* SettingView.swift */; };
 		D19C83B42CD75CEF002D2946 /* EikenIchijiChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */; };
 		D1A026192CD75FF400793A5E /* EikenIchijiIndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */; };
+		D148FA382CD5D955008A0A9B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148FA372CD5D955008A0A9B /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D140A46D2CD5C5FE003D8362 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiChartView.swift; sourceTree = "<group>"; };
 		D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiIndividualView.swift; sourceTree = "<group>"; };
+		D148FA372CD5D955008A0A9B /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D140A46D2CD5C5FE003D8362 /* SettingView.swift */,
 				D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */,
 				D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */,
+				D148FA372CD5D955008A0A9B /* Image.swift */,
 				D140A45F2CD5C36C003D8362 /* Assets.xcassets */,
 				D140A4612CD5C36C003D8362 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				D19C83B42CD75CEF002D2946 /* EikenIchijiChartView.swift in Sources */,
 				D140A45E2CD5C36B003D8362 /* ContentView.swift in Sources */,
+				D148FA382CD5D955008A0A9B /* Image.swift in Sources */,
 				D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */,
 				D1041F872CDB0D8200E675BE /* SelectConfirmView.swift in Sources */,
 				D140A46C2CD5C5AD003D8362 /* SelectRecordView.swift in Sources */,
