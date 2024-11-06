@@ -17,20 +17,20 @@ struct EikenIchijiRecordView: View {
     
     var body: some View {
         VStack{
-            HStack {
+            VStack {
                 Text("受験日を選択: \(selectedDate, formatter: dateFormatter)")
-                    .padding()
+                    .padding(.top, 16)
+                Spacer()
                 DatePicker("日付を選択", selection: $selectedDate, displayedComponents: [.date])
                     .datePickerStyle(WheelDatePickerStyle())
-                    .frame(maxWidth: 150)
+                    .frame(width: 100, height: 1)
                 
             }
             HStack {
                 Text("受験級を選択")
-                    .padding(16)
+                    .padding(.leading, 16)
                 Spacer()
                 Picker("受験級を選択", selection: $selectedGrade) {
-                    /// 選択項目の一覧
                     Text("5級").tag(1)
                     Text("4級").tag(2)
                     Text("3級").tag(3)
@@ -40,11 +40,12 @@ struct EikenIchijiRecordView: View {
                     Text("1級").tag(7)
                 }
                 .pickerStyle(.wheel)
+                .padding(.horizontal, 16)
                 
             }
             HStack {
                 Text("スコアを記入")
-                    .padding(16)
+                    .padding(.leading, 16)
                 Spacer()
             }
             HStack {
@@ -54,7 +55,8 @@ struct EikenIchijiRecordView: View {
                 TextField("850", text: $readingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
-                    .padding()
+                    .padding(.leading, 22)
+                    .padding(.trailing, 16)
                 
             }
             HStack {
@@ -64,7 +66,8 @@ struct EikenIchijiRecordView: View {
                 TextField("850", text: $listeningScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
-                    .padding()
+                    .padding(.leading, 16)
+                    .padding(.trailing, 16)
                 
             }
             HStack {
@@ -74,7 +77,8 @@ struct EikenIchijiRecordView: View {
                 TextField("850", text: $writingScore)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .keyboardType(.numberPad)
-                    .padding()
+                    .padding(.leading, 30)
+                    .padding(.trailing, 16)
                 
             }
             HStack {
@@ -88,8 +92,9 @@ struct EikenIchijiRecordView: View {
                     .padding()
                     .background(Color.gray.opacity(0.1))
                     .cornerRadius(5)
-                    .frame(height: 100)
-                    .padding()
+                    .frame(width: 280, height: 150)
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 16)
                 
             }
             Button(action: {
@@ -101,7 +106,7 @@ struct EikenIchijiRecordView: View {
                     .background(Color.blue)
                     .cornerRadius(10)
             }
-            .padding()
+            .padding(.bottom, 16)
             Spacer()
         }
     }
