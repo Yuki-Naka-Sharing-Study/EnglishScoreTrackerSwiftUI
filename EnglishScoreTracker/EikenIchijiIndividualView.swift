@@ -35,14 +35,14 @@ struct EikenIchijiIndividualView: View {
                 Text("受験日")
                     .padding(16)
                 Spacer()
-                Text("2024年11月3日")
+                Text("2023/10/8")
                     .padding(.trailing, 16)
             }
             HStack {
                 Text("受験級")
                     .padding(16)
                 Spacer()
-                Text("準一級")
+                Text("一級")
                     .padding(.trailing, 16)
             }
             HStack {
@@ -55,7 +55,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.leading, 32)
                     .padding(.bottom, 16)
                 Spacer()
-                Text("850")
+                Text("751")
                     .padding(.trailing, 16)
             }
             HStack {
@@ -63,7 +63,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.leading, 32)
                     .padding(.bottom, 16)
                 Spacer()
-                Text("850")
+                Text("623")
                     .padding(.trailing, 16)
             }
             HStack {
@@ -71,7 +71,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.leading, 32)
                     .padding(.bottom, 16)
                 Spacer()
-                Text("850")
+                Text("713")
                     .padding(.trailing, 16)
             }
             HStack {
