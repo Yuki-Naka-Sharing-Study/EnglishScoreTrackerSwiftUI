@@ -15,7 +15,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("英検一次の詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.red)
+                                .fill(Color.purple)
                                 .frame(width: 200, height: 200)
                             
                             Text("英検一次")
@@ -26,7 +26,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("英検二次の詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.orange)
+                                .fill(Color.blue)
                                 .frame(width: 200, height: 200)
                             
                             Text("英検二次")
@@ -39,7 +39,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("TOEICの詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.yellow)
+                                .fill(Color.green)
                                 .frame(width: 200, height: 200)
                             
                             Text("TOEIC")
@@ -50,7 +50,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("TOEIC SWの詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.green)
+                                .fill(Color.yellow)
                                 .frame(width: 200, height: 200)
                             
                             Text("TOEIC SW")
@@ -63,7 +63,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("TOEFL iBTの詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.blue)
+                                .fill(Color.orange)
                                 .frame(width: 200, height: 200)
                             
                             Text("TOEFL iBT")
@@ -74,7 +74,7 @@ struct SelectRecordView: View {
                     NavigationLink(destination: Text("IELTSの詳細")) {
                         ZStack {
                             Rectangle()
-                                .fill(Color.purple)
+                                .fill(Color.red)
                                 .frame(width: 200, height: 200)
                             
                             Text("IELTS")
