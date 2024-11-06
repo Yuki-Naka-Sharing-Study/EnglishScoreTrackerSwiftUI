@@ -12,7 +12,7 @@ struct SelectConfirmView: View {
         NavigationStack {
             VStack {
                 HStack {
-                    NavigationLink(destination: Text("英検一次の詳細")) {
+                    NavigationLink(destination: EikenIchijiChartView()) {
                         ZStack {
                             Rectangle()
                                 .fill(Color.red)
