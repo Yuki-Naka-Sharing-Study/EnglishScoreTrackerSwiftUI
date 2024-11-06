@@ -17,6 +17,7 @@
 		D19C83B42CD75CEF002D2946 /* EikenIchijiChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */; };
 		D1A026192CD75FF400793A5E /* EikenIchijiIndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */; };
 		D148FA382CD5D955008A0A9B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148FA372CD5D955008A0A9B /* Image.swift */; };
+		D1EC1E002CD7772300AE6961 /* EikenIchijiRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiChartView.swift; sourceTree = "<group>"; };
 		D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiIndividualView.swift; sourceTree = "<group>"; };
 		D148FA372CD5D955008A0A9B /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EikenIchijiRecordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D19C83B32CD75CEF002D2946 /* EikenIchijiChartView.swift */,
 				D1A026182CD75FF400793A5E /* EikenIchijiIndividualView.swift */,
 				D148FA372CD5D955008A0A9B /* Image.swift */,
+				D1EC1DFF2CD7772300AE6961 /* EikenIchijiRecordView.swift */,
 				D140A45F2CD5C36C003D8362 /* Assets.xcassets */,
 				D140A4612CD5C36C003D8362 /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19C83B42CD75CEF002D2946 /* EikenIchijiChartView.swift in Sources */,
+				D1EC1E002CD7772300AE6961 /* EikenIchijiRecordView.swift in Sources */,
 				D140A45E2CD5C36B003D8362 /* ContentView.swift in Sources */,
 				D148FA382CD5D955008A0A9B /* Image.swift in Sources */,
 				D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */,
