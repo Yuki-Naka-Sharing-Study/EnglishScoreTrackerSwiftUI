@@ -51,24 +51,28 @@ struct EikenIchijiIndividualView: View {
             HStack {
                 Text("Reading")
                     .padding(.leading, 32)
+                    .padding(.bottom, 16)
                 Spacer()
                 Text("850")
             }
             HStack {
                 Text("Listening")
                     .padding(.leading, 32)
+                    .padding(.bottom, 16)
                 Spacer()
                 Text("850")
             }
             HStack {
                 Text("Writing")
                     .padding(.leading, 32)
+                    .padding(.bottom, 16)
                 Spacer()
                 Text("850")
             }
             HStack {
                 Text("Speaking")
                     .padding(.leading, 32)
+                    .padding(.bottom, 16)
                 Spacer()
                 Text("850")
             }
