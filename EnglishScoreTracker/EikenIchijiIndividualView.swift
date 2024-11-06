@@ -56,6 +56,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("751")
+                Text("/ 850")
                     .padding(.trailing, 16)
             }
             HStack {
@@ -64,6 +65,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("623")
+                Text("/ 850")
                     .padding(.trailing, 16)
             }
             HStack {
@@ -72,6 +74,7 @@ struct EikenIchijiIndividualView: View {
                     .padding(.bottom, 16)
                 Spacer()
                 Text("713")
+                Text("/ 850")
                     .padding(.trailing, 16)
             }
             HStack {
