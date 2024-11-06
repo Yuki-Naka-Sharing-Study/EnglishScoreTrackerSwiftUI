@@ -19,9 +19,10 @@ struct EikenIchijiChartView: View {
 //            systemImage: "pencil",
 //            description: Text("まだ何も記録されていません。")
 //        )
-        
         // 以下、記録ありの場合
         VStack {
+            Text("一級")
+                .bold()
             Chart(data) {
                 LineMark(
                     x: .value("Schedule", $0.schedule),
@@ -41,7 +42,6 @@ struct EikenIchijiChartView: View {
             }
             .pickerStyle(.wheel)
         }
-        
     }
 }
 
