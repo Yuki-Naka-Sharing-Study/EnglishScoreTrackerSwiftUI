@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection:$selection) {
-            ConfirmView()
+            SelectConfirmView()
                 .tabItem {
                     Label("記録確認", systemImage: "magnifyingglass")
                 }
