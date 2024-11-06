@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SelectConfirmView: View {
-    // before merge feature/SelectConfirmView branch into develop branch
+    // merged feature/SelectConfirmView branch into develop branch.
     var body: some View {
         NavigationStack {
             VStack {
