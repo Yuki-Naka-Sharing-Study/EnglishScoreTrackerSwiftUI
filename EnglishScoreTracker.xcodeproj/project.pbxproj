@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1041F872CDB0D8200E675BE /* SelectConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1041F862CDB0D8200E675BE /* SelectConfirmView.swift */; };
 		D140A45C2CD5C36B003D8362 /* EnglishScoreTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A45B2CD5C36B003D8362 /* EnglishScoreTrackerApp.swift */; };
 		D140A45E2CD5C36B003D8362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D140A45D2CD5C36B003D8362 /* ContentView.swift */; };
 		D140A4602CD5C36C003D8362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D140A45F2CD5C36C003D8362 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1041F862CDB0D8200E675BE /* SelectConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectConfirmView.swift; sourceTree = "<group>"; };
 		D140A4582CD5C36B003D8362 /* EnglishScoreTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishScoreTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D140A45B2CD5C36B003D8362 /* EnglishScoreTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishScoreTrackerApp.swift; sourceTree = "<group>"; };
 		D140A45D2CD5C36B003D8362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				D140A45B2CD5C36B003D8362 /* EnglishScoreTrackerApp.swift */,
 				D140A45D2CD5C36B003D8362 /* ContentView.swift */,
 				D140A46B2CD5C5AD003D8362 /* SelectRecordView.swift */,
+				D1041F862CDB0D8200E675BE /* SelectConfirmView.swift */,
 				D140A46D2CD5C5FE003D8362 /* SettingView.swift */,
 				D140A45F2CD5C36C003D8362 /* Assets.xcassets */,
 				D140A4612CD5C36C003D8362 /* Preview Content */,
@@ -145,6 +148,7 @@
 			files = (
 				D140A45E2CD5C36B003D8362 /* ContentView.swift in Sources */,
 				D140A46E2CD5C5FE003D8362 /* SettingView.swift in Sources */,
+				D1041F872CDB0D8200E675BE /* SelectConfirmView.swift in Sources */,
 				D140A46C2CD5C5AD003D8362 /* SelectRecordView.swift in Sources */,
 				D140A45C2CD5C36B003D8362 /* EnglishScoreTrackerApp.swift in Sources */,
 			);

@@ -1,14 +1,13 @@
 //
-//  ConfirmView.swift
+//  SelectConfirmView.swift
 //  EnglishScoreTracker
 //
-//  Created by 仲優樹 on 2024/11/02.
+//  Created by 仲優樹 on 2024/11/06.
 //
 
 import SwiftUI
 
 struct SelectConfirmView: View {
-    // merged feature/SelectConfirmView branch into develop branch.
     var body: some View {
         NavigationStack {
             VStack {
@@ -92,3 +91,4 @@ struct SelectConfirmView: View {
 #Preview {
     SelectConfirmView()
 }
+
