@@ -78,9 +78,12 @@ struct EikenIchijiIndividualView: View {
                 Text("Memo")
                     .padding(16)
                 Spacer()
-                Text("The topic of Writing was so difficult.")
-                    .padding(.trailing, 16)
             }
+            HStack {
+                Text("The topic of Writing was so difficult that I could not solve all questions.")
+                    .padding(.horizontal, 32)
+            }
+            
             Spacer()
         }
     }
