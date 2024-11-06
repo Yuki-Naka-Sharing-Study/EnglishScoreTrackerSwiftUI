@@ -75,14 +75,6 @@ struct EikenIchijiIndividualView: View {
                     .padding(.trailing, 16)
             }
             HStack {
-                Text("Speaking")
-                    .padding(.leading, 32)
-                    .padding(.bottom, 16)
-                Spacer()
-                Text("850")
-                    .padding(.trailing, 16)
-            }
-            HStack {
                 Text("Memo")
                     .padding(16)
                 Spacer()
