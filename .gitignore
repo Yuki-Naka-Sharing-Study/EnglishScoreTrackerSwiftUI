@@ -3,6 +3,8 @@
 .DS_Store
 ## Xcode build files
 build/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace
 DerivedData/
 ## Xcode settings
 *.pbxuser
