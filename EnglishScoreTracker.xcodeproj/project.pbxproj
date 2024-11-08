@@ -137,6 +137,7 @@
 				D140A4542CD5C36B003D8362 /* Sources */,
 				D140A4552CD5C36B003D8362 /* Frameworks */,
 				D140A4562CD5C36B003D8362 /* Resources */,
+				40B11FD22CDB9B5C00189B25 /* SwiftLint */,
 				D1184D4D2CDDA293006C5616 /* ShellScript */,
 			);
 			buildRules = (
@@ -195,6 +196,9 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		40B11FD22CDB9B5C00189B25 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 		2FE7609071938EACE7DD0140 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +207,17 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect --format # 自動修正の有効化\n  swiftlint\nelse\n  echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
