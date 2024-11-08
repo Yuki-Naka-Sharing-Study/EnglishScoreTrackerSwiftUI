@@ -9,7 +9,6 @@ import SwiftUI
 
 struct EikenIchijiIndividualView: View {
     @State private var isShownAlert = false
-    
     var body: some View {
         NavigationStack {
             HStack {
@@ -24,7 +23,6 @@ struct EikenIchijiIndividualView: View {
                     Alert(
                         title: Text("データを削除しますか？"),
                         primaryButton: .destructive(Text("削除する"), action: {
-                            
                         }),
                         secondaryButton: .cancel(Text("キャンセル"))
                     )
@@ -86,7 +84,6 @@ struct EikenIchijiIndividualView: View {
                 Text("The topic of Writing was so difficult that I could not solve all questions.")
                     .padding(.horizontal, 32)
             }
-            
             Spacer()
         }
     }
