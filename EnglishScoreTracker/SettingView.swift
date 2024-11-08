@@ -10,7 +10,6 @@ import SwiftUI
 struct SettingView: View {
     @Environment(\.dismiss) private var dismiss
     private let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
-    
     var body: some View {
         NavigationStack {
             listView()
@@ -18,7 +17,6 @@ struct SettingView: View {
                 .navigationBarTitleDisplayMode(.inline)
         }
     }
-    
     @ViewBuilder
     private func listView() -> some View {
         List {
@@ -31,7 +29,6 @@ struct SettingView: View {
             }
         }
     }
-    
     @ViewBuilder
     private func aboutThisAppCellView() -> some View {
         HStack {
@@ -42,7 +39,6 @@ struct SettingView: View {
                 .foregroundStyle(.secondary)
         }
     }
-    
     @ViewBuilder
     private func contactCellView() -> some View {
         HStack {
@@ -54,7 +50,6 @@ struct SettingView: View {
                 .opacity(0.5)
         }
     }
-    
     @ViewBuilder
     private func reviewCellView() -> some View {
         HStack {
@@ -65,7 +60,6 @@ struct SettingView: View {
                 .foregroundStyle(.secondary)
         }
     }
-    
     @ViewBuilder
     private func shareThisAppCellView() -> some View {
         HStack {
@@ -76,7 +70,6 @@ struct SettingView: View {
                 .foregroundStyle(.secondary)
         }
     }
-    
     @ViewBuilder
     private func versionCellView() -> some View {
         HStack {

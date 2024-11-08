@@ -14,7 +14,6 @@ extension Image {
             .resizable()
             .scaledToFit()
     }
-    
     static let gearshape        = Image(systemName: "gearshape")
     static let arrowupArrowdown = Image(systemName: "arrow.up.arrow.down")
     static let plus             = Image(systemName: "plus")

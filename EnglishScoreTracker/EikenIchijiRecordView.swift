@@ -14,7 +14,6 @@ struct EikenIchijiRecordView: View {
     @State private var listeningScore: String = ""
     @State private var writingScore: String = ""
     @State private var memoText: String = ""
-    
     var body: some View {
         VStack{
             VStack {
@@ -24,7 +23,6 @@ struct EikenIchijiRecordView: View {
                 DatePicker("日付を選択", selection: $selectedDate, displayedComponents: [.date])
                     .datePickerStyle(WheelDatePickerStyle())
                     .frame(width: 100, height: 1)
-                
             }
             HStack {
                 Text("受験級を選択")
@@ -41,7 +39,6 @@ struct EikenIchijiRecordView: View {
                 }
                 .pickerStyle(.wheel)
                 .padding(.horizontal, 16)
-                
             }
             HStack {
                 Text("スコアを記入")
@@ -57,7 +54,6 @@ struct EikenIchijiRecordView: View {
                     .keyboardType(.numberPad)
                     .padding(.leading, 22)
                     .padding(.trailing, 16)
-                
             }
             HStack {
                 Text("Listening")
@@ -68,7 +64,6 @@ struct EikenIchijiRecordView: View {
                     .keyboardType(.numberPad)
                     .padding(.leading, 16)
                     .padding(.trailing, 16)
-                
             }
             HStack {
                 Text("Writing")
@@ -79,7 +74,6 @@ struct EikenIchijiRecordView: View {
                     .keyboardType(.numberPad)
                     .padding(.leading, 30)
                     .padding(.trailing, 16)
-                
             }
             HStack {
                 VStack {
@@ -95,7 +89,6 @@ struct EikenIchijiRecordView: View {
                     .frame(width: 280, height: 150)
                     .padding(.horizontal, 16)
                     .padding(.bottom, 16)
-                
             }
             Button(action: {
                 print("Button tapped!")
